@@ -1,5 +1,5 @@
 a = input().split()
 res = ""
-for i in range(len(a)):
-	res+=a[i][1:] + a[i][0] + "ay ";
+for i in a:
+ res+=i[1:] + i[0] + "ay ";
 print(res)
